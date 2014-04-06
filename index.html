@@ -1,1 +1,22 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First JavaScript</h1>
+
+<p id="demo">
+    JavaScript can change the content of an HTML element.
+</p>
+
+<script>
+    function myFunction()
+    {
+        x = document.getElementById("demo"); //Find the element with id="demo"
+        x.innerHTML = "Hello JavaScript!";   //Change the HTML content
+    }
+</script>
+
+<button type="button" onclick="myFunction()">Click Me!</button>
+
+</body>
+</html>
