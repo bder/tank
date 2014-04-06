@@ -106,10 +106,23 @@
     }
     function showPara()
     {
-        document.getElementById("first").style.visibility=(document.formex.firstpara.checked) ? "visible" : "hidden";
+        document.getElementById("first").style.visibility=(document.formex.firstpara.checked)   ? "visible" : "hidden";
         document.getElementById("second").style.visibility=(document.formex.secondpara.checked) ? "visible" : "hidden";
-        document.getElementById("third").style.visibility=(document.formex.thirdpara.checked) ? "visible" : "hidden";
+        document.getElementById("third").style.visibility=(document.formex.thirdpara.checked)   ? "visible" : "hidden";
     }
+
+    /*(function() {
+        window.onmousemove = handleMouseMove;
+        function handleMouseMove(event) {
+            event = event || window.event; // IE-ism
+            // event.clientX and event.clientY contain the mouse position
+        }
+    })();*/
+
+    $("body").onmousemove(function(e) {
+        document.Form1.mousex.value = e.pageX;
+        document.Form1.mousey.value = e.pageY;
+    })
 
     /*function changeImage()
     {
@@ -158,5 +171,18 @@
     <input type="checkbox" name="firstpara" onclick="showPara();" />  First paragraph </br>
     <input type="checkbox" name="secondpara" onclick="showPara();" /> Second paragraph </br>
     <input type="checkbox" name="thirdpara" onclick="showPara();" />  Third paragraph </br>
+
+    <p>Text input</p>
+    <!--onblur
+    onchange
+    onfocus-->
+
 </form>
+
+<form name="Form1">
+    <input type="text" name="mousex" />Mouse X Position<br/>
+    <input type="text" name="mousey" />Mouse Y Position<br/>
+</form>
+
+
 

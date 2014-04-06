@@ -69,7 +69,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="153" column="38" selection-start="4234" selection-end="4234" vertical-scroll-proportion="0.6830986" vertical-offset="970" max-vertical-offset="1680">
+            <state line="122" column="25" selection-start="3679" selection-end="3679" vertical-scroll-proportion="0.28169015" vertical-offset="790" max-vertical-offset="2070">
               <folding>
                 <element signature="e#751#2572#0" expanded="false" />
               </folding>
@@ -97,7 +97,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-340" />
     <option name="y" value="22" />
-    <option name="width" value="1166" />
+    <option name="width" value="988" />
     <option name="height" value="870" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -265,15 +265,15 @@
       <changelist id="5f4b541c-ab29-4700-aa33-85d27d96ac93" name="Default" comment="" />
       <created>1396754365291</created>
       <updated>1396754365291</updated>
-      <workItem from="1396754369225" duration="5474000" />
+      <workItem from="1396754369225" duration="6367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5474000" />
+    <option name="totallyTimeSpent" value="6367000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-340" y="22" width="1166" height="870" extended-state="0" />
+    <frame x="-340" y="22" width="988" height="870" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -294,7 +294,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29588336" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3491903" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -322,7 +322,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="153" column="38" selection-start="4234" selection-end="4234" vertical-scroll-proportion="0.6830986" vertical-offset="970" max-vertical-offset="1680">
+        <state line="122" column="25" selection-start="3679" selection-end="3679" vertical-scroll-proportion="0.28169015" vertical-offset="790" max-vertical-offset="2070">
           <folding>
             <element signature="e#751#2572#0" expanded="false" />
           </folding>
