@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
-<body>
+<body onresize="changeImage();" onload="alert('website loaded');">
 
 <h1>Bryan S. Der</h1>
 
 <p id="demo_button">
     JavaScript can change the content of an HTML element.
 </p>
+
+
+<!-- <img src="LittleBrain.png" id="littlebrain" onclick="alertme();" ondblclick="alert('You double clicked');" />  -->
+
 
 <script language="javascript" type="text/javascript">
     /* comment */
@@ -25,7 +29,7 @@
     //document.write(Number.MIN_VALUE+"<br />");
 
     testFunction();
-
+    dynamicEventsFunction();
 
 
     function buttonFunction()
@@ -87,26 +91,40 @@
         //loops
 
         var count = 1;
-
-        while( count <= 10 )
-        {
-            document.write(count + "<br/>");
-            count++;
-        }
-
         for(count=0; count<=10; count++)
         {
             document.write(count + "<br/>")
         }
     }
 
+    /*function changeImage()
+    {
+        document.getElementById("littlebrain").style.height="35%";
+        document.getElementById("littlebrain").style.width="35%";
+        return true;
+    }
+    function alertme()
+    {
+        alertmsg = document.littlebrain.src + "\nHeight: " + document.littlebrain.height;
+        alert(alertmsg);
+        return true;
+    }*/
+
+
 </script>
 
 <noscript>
-            <h3> This site requires JavaScript </h3>
+    <h3> This site requires JavaScript </h3>
 </noscript>
 
 
+
+<style>
+    #h3style
+    {
+        color: gray;
+    }
+</style>
 
 
 <button type="button" onclick="buttonFunction()">Click button</button>
