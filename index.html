@@ -9,7 +9,6 @@
 </p>
 
 
-<!-- <img src="LittleBrain.png" id="littlebrain" onclick="alertme();" ondblclick="alert('You double clicked');" />  -->
 
 
 <script language="javascript" type="text/javascript">
@@ -97,6 +96,17 @@
         }
     }
 
+    function changeColor() {
+        document.getElementById("h3style").style.color="red";
+        document.getElementById("h3style").firstChild.nodeValue="Excited";
+        return true;
+    }
+    function changeAgain() {
+        document.getElementById("h3style").style.color="gray";
+        document.getElementById("h3style").firstChild.nodeValue="Bored";
+        return true;
+    }
+
     /*function changeImage()
     {
         document.getElementById("littlebrain").style.height="35%";
@@ -128,6 +138,9 @@
 
 
 <button type="button" onclick="buttonFunction()">Click button</button>
+<img src="LittleBrain.png" id="littlebrain" onclick="alertme();" ondblclick="alert('You double clicked');" />
+<h3 id="h3style" onmouseover="changeColor();" onmouseout="changeAgain();"> Rollover </h3>
+
 
 </body>
 </html>
