@@ -111,18 +111,20 @@
         document.getElementById("third").style.visibility=(document.formex.thirdpara.checked)   ? "visible" : "hidden";
     }
 
-    /*(function() {
+    (function() {
         window.onmousemove = handleMouseMove;
         function handleMouseMove(event) {
             event = event || window.event; // IE-ism
             // event.clientX and event.clientY contain the mouse position
+            document.Form1.mousex.value = event.pageX;
+            document.Form1.mousey.value = event.pageY;
         }
-    })();*/
+    })();
 
-    $("body").onmousemove(function(e) {
+    /*$("body").onmousemove(function(e) {
         document.Form1.mousex.value = e.pageX;
         document.Form1.mousey.value = e.pageY;
-    })
+    })*/
 
     /*function changeImage()
     {
