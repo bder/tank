@@ -4,7 +4,7 @@
 
 <h1>Bryan S. Der</h1>
 
-<p id="demo">
+<p id="demo_button">
     JavaScript can change the content of an HTML element.
 </p>
 
@@ -24,79 +24,80 @@
     //document.write(Number.MAX_VALUE+"<br />");
     //document.write(Number.MIN_VALUE+"<br />");
 
-    var samp_str = "Here are some escape characters \" \' \\ \t \n";
-    document.write(samp_str + "<br />");
-
-    var first_str = "First String";
-    var second_str = "Second String";
-    var combined = first_str + " " + second_str;
-    document.write("length " + combined.length + "<br />");
-    document.write("substr " + combined.substr(6,12) + "<br />");
-    document.write("lasts " + combined.charAt(combined.length) + "<br />");
-    //combined.indexOf('t')
-
-    var str_var = "5"; //string
-    var num_var = 10;  //number
-    var total = num_var + str_var; //105
-    var mult_total = num_var * str_var; //50
-    document.write("5+10="+total + " 5*10="+mult_total + "<br />");
-    total = num_var + Number(str_var); //cast string as number
-    //can also cast num to string
-    document.write("cast 5+10="+total +"<br/>");
-
-
-    var float_var = 3.1415926;
-    var float_str = float_var.toFixed(5);
-    document.write("Shortened PI " + float_str + "<br />");
-    document.write("datatype " + typeof(float_str) + "<br />");
-    document.write("datatype " + typeof(float_var) + "<br />");
-
-    bool_var = Boolean(23); //true
-    document.write("Boolean 23 is " + bool_var + "<br />");
+    testFunction();
 
 
 
-    var vehicles = new Array("car", "truck", "van");
-    document.write("second array item " + vehicles[1] + "<br/>");
-
-    for(i in vehicles)
+    function buttonFunction()
     {
-        document.write("value in array " + vehicles[i] + "<br/>");
-    }
-
-    //conditional operator
-    var rand_var = (5 < 10) ? "5 is less than 10" : "5 is more than 10";
-
-    //switch case
-
-
-    /*
-
-    //loops
-
-    var count = 1;
-
-    while( count <= 10 )
-    {
-        if(count % 2)
-        {
-            continue;
-        }
-        document.write(count + "<br/>");
-        count++;
-    }
-
-    for(count=0; count<=10; count++)
-    {
-        document.write(count + "<br/>")
-    }
-    */
-
-
-    function myFunction()
-    {
-        x = document.getElementById("demo"); //Find the element with id="demo"
+        x = document.getElementById("demo_button"); //Find the element with id="demo"
         x.innerHTML = "Hello JavaScript!";   //Change the HTML content
+    }
+
+    function testFunction()
+    {
+        var samp_str = "Here are some escape characters \" \' \\ \t \n";
+        document.write(samp_str + "<br />");
+
+        var first_str = "First String";
+        var second_str = "Second String";
+        var combined = first_str + " " + second_str;
+        document.write("length " + combined.length + "<br />");
+        document.write("substr " + combined.substr(6,12) + "<br />");
+        document.write("lasts " + combined.charAt(combined.length) + "<br />");
+        //combined.indexOf('t')
+
+        var str_var = "5"; //string
+        var num_var = 10;  //number
+        var total = num_var + str_var; //105
+        var mult_total = num_var * str_var; //50
+        document.write("5+10="+total + " 5*10="+mult_total + "<br />");
+        total = num_var + Number(str_var); //cast string as number
+        //can also cast num to string
+        document.write("cast 5+10="+total +"<br/>");
+
+
+        var float_var = 3.1415926;
+        var float_str = float_var.toFixed(5);
+        document.write("Shortened PI " + float_str + "<br />");
+        document.write("datatype " + typeof(float_str) + "<br />");
+        document.write("datatype " + typeof(float_var) + "<br />");
+
+        bool_var = Boolean(23); //true
+        document.write("Boolean 23 is " + bool_var + "<br />");
+
+
+
+        var vehicles = new Array("car", "truck", "van");
+        document.write("second array item " + vehicles[1] + "<br/>");
+
+        for(i in vehicles)
+        {
+            document.write("value in array " + vehicles[i] + "<br/>");
+        }
+
+        //conditional operator
+        var rand_var = (5 < 10) ? "5 is less than 10" : "5 is more than 10";
+
+        //switch case
+
+
+
+
+        //loops
+
+        var count = 1;
+
+        while( count <= 10 )
+        {
+            document.write(count + "<br/>");
+            count++;
+        }
+
+        for(count=0; count<=10; count++)
+        {
+            document.write(count + "<br/>")
+        }
     }
 
 </script>
@@ -108,7 +109,7 @@
 
 
 
-<button type="button" onclick="myFunction()">Click button</button>
+<button type="button" onclick="buttonFunction()">Click button</button>
 
 </body>
 </html>
