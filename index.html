@@ -45,6 +45,52 @@
 -->
 <body>
 
+<table class="instructions" align="right">
+    <tr>
+        <td><b>Key</b></td>
+        <td><b>Action</b></td>
+    </tr>
+    <tr>
+        <td>mouse</td>
+        <td>move red</td>
+    </tr>
+    <tr>
+        <td>left</td>
+        <td>move blue</td>
+    </tr>
+    <tr>
+        <td>right</td>
+        <td>move blue</td>
+    </tr>
+    <tr>
+        <td>up</td>
+        <td>move blue</td>
+    </tr>
+    <tr>
+        <td>down</td>
+        <td>move blue</td>
+    </tr>
+    <tr>
+        <td>a</td>
+        <td>aim left</td>
+    </tr>
+    <tr>
+        <td>f</td>
+        <td>aim right</td>
+    </tr>
+    <tr>
+        <td>s</td>
+        <td>aim up</td>
+    </tr>
+    <tr>
+        <td>d</td>
+        <td>aim down</td>
+    </tr>
+    <tr>
+        <td>space</td>
+        <td>fire</td>
+    </tr>
+</table>
 
 </body>
 
@@ -53,6 +99,8 @@
     //http://johnpolacek.github.io/imagefill.js/
     document.write('<table id="grid" border="1" cellspacing="0" cellpadding="0" bordercolor="white">')
 
+
+    //write for-loop to be customized to window size
     for(i = 0; i < 32; i++){
         document.write('<tr>')
         for (j = 0; j < 32; j++){
@@ -75,34 +123,74 @@
     var cellid = "2_2";
     var next_cellid = "";
 
+    var bullet_direction = "";
+
     document.getElementById(cellid).style.backgroundColor="blue";
 
-
-    /*$(document).onkeydown(function(e){
-        var movekey = e.charCode;
-        alert(movekey);
-        if(true) {
-            x++;
-            next_cellid = String(x) + String(y);
-            document.getElementById(next_cellid).style.backgroundColor="blue";
-            document.getElementById(cellid).style.backgroundColor="lightblue";
-            cellid = next_cellid;
+    function canonFire() {
+        //alert("canon fire " + bullet_direction);
+        if(bullet_direction == "right") {
+            for(var bullet_x = x+1; bullet_x<=32; bullet_x++) {
+                var bullet_cellid = String(bullet_x) + "_" + String(y);
+                document.getElementById(bullet_cellid).style.backgroundColor="black";
+            }
         }
-    });*/
+        if(bullet_direction == "left") {
+            for(var bullet_x = x-1; bullet_x>0; bullet_x--) {
+                var bullet_cellid = String(bullet_x) + "_" + String(y);
+                document.getElementById(bullet_cellid).style.backgroundColor="black";
+            }
+        }
+        if(bullet_direction == "up") {
+            for(var bullet_y = y+1; bullet_y<=32; bullet_y++) {
+                var bullet_cellid =  String(x) + "_" + String(bullet_y);
+                document.getElementById(bullet_cellid).style.backgroundColor="black";
+            }
+        }
+        if(bullet_direction == "down") {
+            for(var bullet_y = y-1; bullet_y>0; bullet_y--) {
+                var bullet_cellid = String(x) + "_" + String(bullet_y);
+                document.getElementById(bullet_cellid).style.backgroundColor="black";
+            }
+        }
+    }
+
 
     $(document).keypress(function(event){
         var movekey = String.fromCharCode(event.which);
         if(movekey == 'f') {
-            x++;
+            bullet_direction = "right";
         }
         else if(movekey == 'd') {
-            y++;
+            bullet_direction = "up";
         }
         else if(movekey == 's') {
-            y--;
+            bullet_direction = "down";
         }
         else if(movekey == 'a') {
+            bullet_direction = "left";
+        }
+        else if(event.which == 32) {
+            canonFire();
+        }
+
+    })
+
+    $(document).keydown(function(event){
+        if(event.which == 37) { //if(event.keyCode == 37
             x--;
+        }
+        else if(event.which == 38) {
+            y--;
+        }
+        else if(event.which == 39) {
+            x++;
+        }
+        else if(event.which == 40) {
+            y++;
+        }
+        else {
+            return;
         }
 
         next_cellid = String(x) + "_" + String(y);
@@ -110,6 +198,13 @@
         document.getElementById(cellid).style.backgroundColor="lightblue";
         cellid = next_cellid;
     })
+
+    /*$(document).keydown(function(e){
+        if (e.keyCode == 37) {
+            alert( "left pressed" );
+            return false;
+        }
+    });*/
 
     /*
     document.onkeydown = handleKeyboardPress;
@@ -141,12 +236,19 @@
 //
 //////////////////////////////////
 -->
-<style>
+<style type="text/css">
     td {
         background-color: lightgray;
         width: 20px;
         height: 20px;
     }
+    table.instructions td{
+        background-color: white;
+        width: 100px;
+        height: 30px;
+        font-size: 150%;
+    }
+
 
 
 </style>
