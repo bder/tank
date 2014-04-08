@@ -2,7 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f4b541c-ab29-4700-aa33-85d27d96ac93" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/throwable/index.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/canvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/galleria-1.3.5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/galleria-1.3.5.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_06.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_09.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_09.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2014_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2014_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2014_02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2014_02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2014_03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2014_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/thumb_2013_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/thumb_2013_02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/thumb_2013_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/thumb_2013_04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/thumb_2013_05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/thumb_2013_06.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/thumb_2013_07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/thumb_2013_08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/thumb_2013_09.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/thumb_2013_10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/thumb_2013_11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/thumb_2013_12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/thumb_2014_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/thumb_2014_02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/thumb_2014_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logoMIT.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logoMIT.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logoTD.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logoUNC.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logoUR.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logoUR2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/mugshot.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/mugshot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/name.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/name1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/name2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sketch_Rook.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery.jcoverflip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery.simpleWeather.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery.slides.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery.slides.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery.slides.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/table_floating_header.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test2.jsp" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bder.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,28 +139,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="149" column="36" selection-start="4074" selection-end="4074" vertical-scroll-proportion="0.7127223" vertical-offset="1714" max-vertical-offset="3915">
+            <state line="66" column="9" selection-start="1788" selection-end="1788" vertical-scroll-proportion="-3.5833333" vertical-offset="904" max-vertical-offset="1635">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test2.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test2.jsp">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/throwable/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="165" column="21" selection-start="4358" selection-end="4367" vertical-scroll-proportion="-4.8" vertical-offset="2235" max-vertical-offset="5430">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mypage.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mypage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="259" column="14" selection-start="10423" selection-end="10428" vertical-scroll-proportion="-2.3" vertical-offset="3770" max-vertical-offset="5715">
+            <state line="34" column="13" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.69220245" vertical-offset="4" max-vertical-offset="780">
               <folding />
             </state>
           </provider>
@@ -114,12 +178,18 @@
         <option value="$PROJECT_DIR$/test2.html" />
         <option value="$PROJECT_DIR$/test2.jsp" />
         <option value="$PROJECT_DIR$/index.jsp" />
+        <option value="$PROJECT_DIR$/mazegenerator.js" />
+        <option value="$PROJECT_DIR$/example.html" />
+        <option value="$PROJECT_DIR$/mazewalk.html" />
+        <option value="$PROJECT_DIR$/mazewalk.jsp" />
+        <option value="$PROJECT_DIR$/throwable/octocats.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/throwable/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="250" />
+    <option name="x" value="53" />
     <option name="y" value="22" />
     <option name="width" value="1284" />
     <option name="height" value="878" />
@@ -168,6 +238,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="bder.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bder.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bder.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="throwable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bder.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bder.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mypage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -416,15 +514,15 @@
       <changelist id="5f4b541c-ab29-4700-aa33-85d27d96ac93" name="Default" comment="" />
       <created>1396754365291</created>
       <updated>1396754365291</updated>
-      <workItem from="1396754369225" duration="60427000" />
+      <workItem from="1396754369225" duration="68343000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60427000" />
+    <option name="totallyTimeSpent" value="68343000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="250" y="22" width="1284" height="878" extended-state="0" />
+    <frame x="53" y="22" width="1284" height="878" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -471,53 +569,16 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="27" selection-start="361" selection-end="361" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="1320">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="400" selection-end="400" vertical-scroll-proportion="0.3488372" vertical-offset="0" max-vertical-offset="731">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery.simpleWeather.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3075">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/canvas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.01986755" vertical-offset="0" max-vertical-offset="755">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mypage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="259" column="14" selection-start="10423" selection-end="10428" vertical-scroll-proportion="-2.3" vertical-offset="3770" max-vertical-offset="5715">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="165" column="21" selection-start="4358" selection-end="4367" vertical-scroll-proportion="-4.8" vertical-offset="2235" max-vertical-offset="5430">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="149" column="36" selection-start="4074" selection-end="4074" vertical-scroll-proportion="0.7127223" vertical-offset="1714" max-vertical-offset="3915">
+        <state line="66" column="9" selection-start="1788" selection-end="1788" vertical-scroll-proportion="-3.5833333" vertical-offset="904" max-vertical-offset="1635">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/throwable/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="13" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.69220245" vertical-offset="4" max-vertical-offset="780">
           <folding />
         </state>
       </provider>
