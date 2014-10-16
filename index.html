@@ -1,103 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="utf-8">
-    <title>jQuery UI Progressbar - Default functionality</title>
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-
-
-    <link rel="stylesheet" href="/resources/demos/style.css">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Codystar">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Maven+Pro">
-    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-
-
-    <style>
-        h1 {
-            font-family: 'Maven Pro';
-            font-size: 50px;
-            text-align: center;
-            font-weight: 400;
-            display: inline;
-            color: #142B73;
-
-        }
-        h2 {
-            font-family: 'Maven Pro', serif;
-            font-size: 24px;
-        }
-        body {
-            font-family: 'Maven Pro', serif;
-            font-size: 18px;
-        }
-    </style>
-
+    <title>AngularJS Tutorials</title>
+    <link rel="stylesheet" href="foundation.css">
 </head>
-
-
-
-<!--
-//////////////////////////////////
-//
-//   HTML body
-//
-//////////////////////////////////
--->
 <body>
 
-<table class="pages" align="left">
-    <tr>
-        <td>
-            <a href="/bder.github.io/mazewalk/"><h2>Mazewalk</h2></a> <br/>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <a href="/bder.github.io/cellgame/"><h2>Cellgame</h2></a> <br/>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <a href="/bder.github.io/throwable/"><h2>Baseball toss</h2></a> <br/>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <a href="/bder.github.io/mypage/"><h2>My Page</h2></a> <br/>
-        </td>
-    </tr>
+<div ng-app="myApp">
+    <div ng-controller="AppCtrl as ctrl">
+
+        <table>
+            <tr>
+                <td><h5>A: {{aGallons}}</h5></td>
+                <td><h5>B: {{bGallons}}</h5></td>
+                <td><h5>C: {{cGallons}}</h5></td>
+                <td><h5>total: {{totalGallons}}</h5></td>
+            </tr>
+            <tr>
+                <td><h5>A: {{aFrac}}</h5></td>
+                <td><h5>B: {{bFrac}}</h5></td>
+                <td><h5>C: {{cFrac}}</h5></td>
+                <td><h5>total: {{totalFrac}}</h5></td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td><input type="number" ng-model="addA" style="width: 115px"></td>
+                <td><div class="button" ng-click="ctrl.addA()">Add A</div></td>
+            </tr>
+            <tr>
+                <td><input type="number" ng-model="addB" style="width: 115px"></td>
+                <td><div class="button" ng-click="ctrl.addB()">Add B</div></td>
+            </tr>
+            <tr>
+                <td><input type="number" ng-model="addC" style="width: 115px"></td>
+                <td><div class="button" ng-click="ctrl.addC()">Add C</div></td>
+            </tr>
+            <tr>
+                <td><input type="number" ng-model="remove" style="width: 115px"></td>
+                <td><div class="button" ng-click="ctrl.remove()">Remove</div></td>
+            </tr>
+
+        </table>
 
 
-</table>
+        <table>
+            <tr ng-repeat="entry in entries">
+                <td>{{entry.currentDate | date:'yyyy-MM-dd h:mm:ss a'}}</td>
+                <td>{{entry.action}}</td>
+                <td>{{entry.amount}}</td>
+            </tr>
 
+
+    </div>
+</div>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
 </body>
-
-<script language="javascript" type="text/javascript">
-
-
-</script>
-
-
-
-<noscript>
-    <h3> This site requires JavaScript </h3>
-</noscript>
-
-
-
-
-<!--
-//////////////////////////////////
-//
-//   Css styles
-//
-//////////////////////////////////
--->
-<style>
-
-</style>
-
+</html>

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>jQuery UI Progressbar - Default functionality</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="jquery.slides.js"></script>
+    <script src="mazegenerator.js"></script>
+
+
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Codystar">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Maven+Pro">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+
+    <style>
+        h1 {
+            font-family: 'Maven Pro';
+            font-size: 50px;
+            text-align: center;
+            font-weight: 400;
+            display: inline;
+            color: #142B73;
+
+        }
+        body {
+            font-family: 'Maven Pro', serif;
+            font-size: 10px;
+        }
+    </style>
+
+</head>
+
+
+
+<!--
+//////////////////////////////////
+//
+//   HTML body
+//
+//////////////////////////////////
+-->
+<body>
+
+<table class="instructions" align="right">
+    <tr>
+        <td><b>Key</b></td>
+        <td><b>Action</b></td>
+    </tr>
+    <tr>
+        <td>mouse</td>
+        <td>move red</td>
+    </tr>
+    <tr>
+        <td>left</td>
+        <td>move blue</td>
+    </tr>
+    <tr>
+        <td>right</td>
+        <td>move blue</td>
+    </tr>
+    <tr>
+        <td>up</td>
+        <td>move blue</td>
+    </tr>
+    <tr>
+        <td>down</td>
+        <td>move blue</td>
+    </tr>
+    <tr>
+        <td>w</td>
+        <td>aim up</td>
+    </tr>
+    <tr>
+        <td>a</td>
+        <td>aim left</td>
+    </tr>
+    <tr>
+        <td>s</td>
+        <td>aim down</td>
+    </tr>
+    <tr>
+        <td>d</td>
+        <td>aim right</td>
+    </tr>
+    <tr>
+        <td>space</td>
+        <td>fire</td>
+    </tr>
+</table>
+
+</body>
+
+<script language="javascript" type="text/javascript">
+
+    //http://johnpolacek.github.io/imagefill.js/
+    document.write('<table id="grid" border="1" cellspacing="0" cellpadding="0" bordercolor="white">')
+
+
+    //write for-loop to be customized to window size
+    for(i = 0; i < 32; i++){
+        document.write('<tr>')
+        for (j = 0; j < 32; j++){
+            var canvas_id = String(j+1) + "_" + String(i+1);
+            document.write(' <td id='+canvas_id+' class="square" onmouseover="colorRed(this);" onmouseout="colorGray(this);"</td>');
+        }
+        document.write('</tr>')
+    }
+    document.write('</table>')
+
+    function colorRed(cell) {
+        cell.style.backgroundColor="red";
+    }
+    function colorGray(cell) {
+        cell.style.backgroundColor="lightgray";
+    }
+
+    var x = 2;
+    var y = 2;
+    var cellid = "2_2";
+    var next_cellid = "";
+
+    var bullet_direction = "";
+
+    document.getElementById(cellid).style.backgroundColor="blue";
+
+    function canonFire() {
+        //alert("canon fire " + bullet_direction);
+        if(bullet_direction == "right") {
+            for(var bullet_x = x+1; bullet_x<=32; bullet_x++) {
+                var bullet_cellid = String(bullet_x) + "_" + String(y);
+                document.getElementById(bullet_cellid).style.backgroundColor="black";
+            }
+        }
+        if(bullet_direction == "left") {
+            for(var bullet_x = x-1; bullet_x>0; bullet_x--) {
+                var bullet_cellid = String(bullet_x) + "_" + String(y);
+                document.getElementById(bullet_cellid).style.backgroundColor="black";
+            }
+        }
+        if(bullet_direction == "down") {
+            for(var bullet_y = y+1; bullet_y<=32; bullet_y++) {
+                var bullet_cellid =  String(x) + "_" + String(bullet_y);
+                document.getElementById(bullet_cellid).style.backgroundColor="black";
+            }
+        }
+        if(bullet_direction == "up") {
+            for(var bullet_y = y-1; bullet_y>0; bullet_y--) {
+                var bullet_cellid = String(x) + "_" + String(bullet_y);
+                document.getElementById(bullet_cellid).style.backgroundColor="black";
+            }
+        }
+    }
+
+
+    $(document).keypress(function(event){
+        var movekey = String.fromCharCode(event.which);
+        if(movekey == 'd') {
+            bullet_direction = "right";
+        }
+        else if(movekey == 'w') {
+            bullet_direction = "up";
+        }
+        else if(movekey == 's') {
+            bullet_direction = "down";
+        }
+        else if(movekey == 'a') {
+            bullet_direction = "left";
+        }
+        else if(event.which == 32) {
+            canonFire();
+        }
+
+    })
+
+    $(document).keydown(function(event){
+        if(event.which == 37) { //if(event.keyCode == 37
+            x--;
+        }
+        else if(event.which == 38) {
+            y--;
+        }
+        else if(event.which == 39) {
+            x++;
+        }
+        else if(event.which == 40) {
+            y++;
+        }
+        else {
+            return;
+        }
+
+        next_cellid = String(x) + "_" + String(y);
+        document.getElementById(next_cellid).style.backgroundColor="blue";
+        document.getElementById(cellid).style.backgroundColor="lightblue";
+        cellid = next_cellid;
+    })
+
+
+
+</script>
+
+
+
+<noscript>
+    <h3> This site requires JavaScript </h3>
+</noscript>
+
+
+
+
+<!--
+//////////////////////////////////
+//
+//   Css styles
+//
+//////////////////////////////////
+-->
+<style type="text/css">
+    #grid td {
+        background-color: lightgray;
+        width: 20px;
+        height: 20px;
+    }
+    table.instructions td{
+        background-color: white;
+        width: 100px;
+        height: 30px;
+        font-size: 150%;
+    }
+
+
+
+</style>

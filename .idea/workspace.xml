@@ -2,79 +2,92 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f4b541c-ab29-4700-aa33-85d27d96ac93" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/throwable/index.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/canvas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/galleria-1.3.5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/galleria-1.3.5.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_05.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_06.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_07.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_08.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2013_12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2014_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2014_01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2014_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2014_02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2014_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/2014_03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/thumb_2013_01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/thumb_2013_02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/thumb_2013_03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/thumb_2013_04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/thumb_2013_05.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/thumb_2013_06.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/thumb_2013_07.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/thumb_2013_08.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/thumb_2013_09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/thumb_2013_10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/thumb_2013_11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/thumb_2013_12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/thumb_2014_01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/thumb_2014_02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/acs_synbio/thumb_2014_03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logoMIT.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logoMIT.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logoTD.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logoUNC.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logoUR.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logoUR2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/mugshot.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/mugshot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/name.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/name1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/name2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sketch_Rook.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery.jcoverflip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery.simpleWeather.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery.slides.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery.slides.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery.slides.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/table_floating_header.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test2.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cellgame/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mazewalk/example.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mazewalk/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mazewalk/mazegenerator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/mlb_2014_schedule.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/blog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/canvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/galleria-1.3.5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/galleria-1.3.5.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/2013_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/2013_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/2013_02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/2013_02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/2013_03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/2013_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/2013_04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/2013_04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/2013_05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/2013_05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/2013_06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/2013_06.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/2013_07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/2013_07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/2013_08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/2013_08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/2013_09.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/2013_09.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/2013_10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/2013_10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/2013_11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/2013_11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/2013_12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/2013_12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/2014_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/2014_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/2014_02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/2014_02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/2014_03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/2014_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/thumb_2013_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/thumb_2013_02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/thumb_2013_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/thumb_2013_04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/thumb_2013_05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/thumb_2013_06.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/thumb_2013_07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/thumb_2013_08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/thumb_2013_09.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/thumb_2013_10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/thumb_2013_11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/thumb_2013_12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/thumb_2014_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/thumb_2014_02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/acs_synbio/thumb_2014_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/logoMIT.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/logoMIT.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/logoTD.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/logoUNC.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/logoUR.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/logoUR2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/mugshot.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/mugshot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/name.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/name1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/name2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/images/sketch_Rook.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/jquery.jcoverflip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/jquery.simpleWeather.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/jquery.slides.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/jquery.slides.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/jquery.slides.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/table_floating_header.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypage/test2.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/throwable/images/field.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/throwable/images/old_baseball.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/throwable/images/old_baseball.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/throwable/images/old_baseball2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/throwable/images/old_baseball_white.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/throwable/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/throwable/js/jquery.throwable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/throwable/js/libs/jquery-1.9.0/jquery.min.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bder.github.io.iws" />
@@ -93,7 +106,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
         <option name="NOTIFY_UNCAUGHT" value="true" />
@@ -129,9 +142,9 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <breakpoint_rules />
-    <ui_properties />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true" />
+    <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -139,19 +152,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="9" selection-start="1788" selection-end="1788" vertical-scroll-proportion="-3.5833333" vertical-offset="904" max-vertical-offset="1635">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/throwable/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="13" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.69220245" vertical-offset="4" max-vertical-offset="780">
+            <state vertical-scroll-proportion="0.47543582" vertical-offset="1005" max-vertical-offset="2550">
+              <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -183,16 +188,17 @@
         <option value="$PROJECT_DIR$/mazewalk.html" />
         <option value="$PROJECT_DIR$/mazewalk.jsp" />
         <option value="$PROJECT_DIR$/throwable/octocats.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/throwable/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="53" />
+    <option name="x" value="47" />
     <option name="y" value="22" />
-    <option name="width" value="1284" />
-    <option name="height" value="878" />
+    <option name="width" value="1233" />
+    <option name="height" value="778" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -210,7 +216,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -222,7 +228,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -241,37 +247,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bder.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bder.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="throwable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bder.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bder.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mypage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -282,7 +260,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/ChessTempura" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
@@ -291,13 +269,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <module name="" />
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
@@ -305,6 +277,12 @@
       <setting name="passParentEnv" value="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -315,7 +293,39 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -346,17 +356,19 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -380,128 +392,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browserFamily" value="FIREFOX" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browserFamily" value="FIREFOX" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
     <list size="0" />
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -515,45 +405,49 @@
       <created>1396754365291</created>
       <updated>1396754365291</updated>
       <workItem from="1396754369225" duration="68343000" />
+      <workItem from="1400464709977" duration="235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68343000" />
+    <option name="totallyTimeSpent" value="68578000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="22" width="1284" height="878" extended-state="0" />
+    <frame x="47" y="22" width="1233" height="778" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16347381" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16347381" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14797507" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14760746" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
   </component>
@@ -571,14 +465,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="9" selection-start="1788" selection-end="1788" vertical-scroll-proportion="-3.5833333" vertical-offset="904" max-vertical-offset="1635">
+        <state vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="5715">
+          <caret line="66" column="2" selection-start-line="66" selection-start-column="2" selection-end-line="66" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/throwable/index.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="13" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.69220245" vertical-offset="4" max-vertical-offset="780">
+        <state vertical-scroll-proportion="0.47543582" vertical-offset="1005" max-vertical-offset="2550">
+          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
           <folding />
         </state>
       </provider>
