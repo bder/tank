@@ -2,102 +2,98 @@ var myApp = angular.module('myApp', []);
 
 function AppCtrl($scope) {
 
-    $scope.date = new Date();
-
-    $scope.entries = [
-    ];
+    initialize($scope);
 
     var capacity = 300;
 
+    var fA,fB,fC,fT,gA,gB,gC,gT;
 
-    $scope.aGallons = 50;
-    $scope.bGallons = 60;
-    $scope.cGallons = 70;
+    function getCurrentValues() {
+        fA = Number($scope.aFrac);
+        fB = Number($scope.bFrac);
+        fC = Number($scope.cFrac);
+        fT = Number($scope.totalFrac);
+        gA = Number($scope.aGallons);
+        gB = Number($scope.bGallons);
+        gC = Number($scope.cGallons);
+        gT = Number($scope.totalGallons);
+    }
 
-    $scope.totalGallons = $scope.aGallons + $scope.bGallons + $scope.cGallons;
 
 
-    computeFractions($scope);
+    this.add = function(component) {
+        getCurrentValues();
+        var amt;
+        if(component == 'A')
+            amt = $scope.addA;
+        else if(component == 'B')
+            amt = $scope.addB;
+        else if(component == 'C')
+            amt = $scope.addC;
 
-    this.addA = function() {
-        if($scope.addA != null) {
-            if(Number($scope.totalGallons) + Number($scope.addA) > capacity) {
-                alert('over capacity');
-            }
-            else {
-                $scope.aGallons = Number($scope.aGallons) + Number($scope.addA);
-                $scope.totalGallons = Number($scope.totalGallons) + Number($scope.addA);
-                computeFractions($scope);
-            }
+        if(amt == null) {
+            return;
         }
+        if (gT + amt > capacity) {
+            alert('over capacity');
+            return;
+        }
+
+        if(component == 'A')
+            $scope.aGallons += amt;
+        else if(component == 'B')
+            $scope.bGallons += amt;
+        else if(component == 'C')
+            $scope.cGallons += amt;
+
+        $scope.totalGallons += amt;
+        computeFractions($scope);
+        getCurrentValues();
+
         $scope.entries.push(
             {
                 currentDate: new Date(),
-                action: "addA",
-                amount: $scope.addA
+                action: "add"+component,
+                amount: amt,
+                fracA:  fA,
+                fracB:  fB,
+                fracC:  fC,
+                galA:   gA,
+                galB:   gB,
+                galC:   gC,
+                galTotal: gT
             }
         );
     }
-    this.addB = function() {
-        if($scope.addB != null) {
-            if(Number($scope.totalGallons) + Number($scope.addB) > capacity) {
-                alert('over capacity');
-            }
-            else {
-                $scope.bGallons = Number($scope.bGallons) + Number($scope.addB);
-                $scope.totalGallons = Number($scope.totalGallons) + Number($scope.addB);
-                computeFractions($scope);
-            }
-            $scope.entries.push(
-                {
-                    currentDate: new Date(),
-                    action: "addB",
-                    amount: $scope.addB
-                }
-            );
-        }
-    }
-    this.addC = function() {
-        if($scope.addC != null) {
-            if(Number($scope.totalGallons) + Number($scope.addC) > capacity) {
-                alert('over capacity');
-            }
-            else {
-                $scope.cGallons = Number($scope.cGallons) + Number($scope.addC);
-                $scope.totalGallons = Number($scope.totalGallons) + Number($scope.addC);
-                computeFractions($scope);
-            }
-            $scope.entries.push(
-                {
-                    currentDate: new Date(),
-                    action: "addC",
-                    amount: $scope.addC
-                }
-            );
-        }
-    }
 
     this.remove = function() {
-        if($scope.remove != null && $scope.totalGallons - $scope.remove < 0 ) {
-            alert('cannot remove ' + $scope.remove + ' gallons')
+        getCurrentValues();
+        var amt = $scope.remove;
+        var newGallons = gT - amt;
+
+        if(amt != null && newGallons < 0 ) {
+            alert('cannot remove ' + amt + ' gallons')
         }
 
-        else if($scope.remove != null) {
-            var oldGallons = $scope.totalGallons;
-            var newGallons = $scope.totalGallons - $scope.remove;
-            var newA = newGallons * $scope.aFrac;
-            var newB = newGallons * $scope.bFrac;
-            var newC = newGallons * $scope.cFrac;
-            $scope.aGallons = newA.toFixed(0);
-            $scope.bGallons = newB.toFixed(0);
-            $scope.cGallons = newC.toFixed(0);
-            $scope.totalGallons = newGallons;
+        else if(amt != null) {
+            $scope.aGallons = (newGallons * fA).toFixed(0);
+            $scope.bGallons = (newGallons * fB).toFixed(0);
+            $scope.cGallons = (newGallons * fC).toFixed(0);
+            $scope.totalGallons = (gT - amt).toFixed(0);
+            getCurrentValues();
 
             $scope.entries.push(
                 {
                     currentDate: new Date(),
                     action: "remove",
-                    amount: $scope.remove
+                    amount: amt,
+                    fracA:  fA,
+                    fracB:  fB,
+                    fracC:  fC,
+                    galA:   gA,
+                    galB:   gB,
+                    galC:   gC,
+                    galTotal: gT
                 }
             );
         }
@@ -116,4 +112,30 @@ function computeFractions($scope) {
             Number($scope.bGallons / $scope.totalGallons) +
             Number($scope.cGallons / $scope.totalGallons)
         ).toFixed(2);
+}
+
+function initialize($scope) {
+
+    //starting conditions
+    $scope.aGallons = 50;
+    $scope.bGallons = 60;
+    $scope.cGallons = 70;
+    $scope.totalGallons = $scope.aGallons + $scope.bGallons + $scope.cGallons;
+    computeFractions($scope);
+
+    //first entry
+    $scope.entries = [
+        {
+            currentDate: new Date(),
+            action: "init",
+            amount: 0,
+            fracA:  $scope.aFrac,
+            fracB:  $scope.bFrac,
+            fracC:  $scope.cFrac,
+            galA:   $scope.aGallons,
+            galB:   $scope.bGallons,
+            galC:   $scope.cGallons,
+            galTotal: $scope.totalGallons
+        }
+    ];
 }

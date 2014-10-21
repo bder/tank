@@ -9,7 +9,7 @@
 <div ng-app="myApp">
     <div ng-controller="AppCtrl as ctrl">
 
-        <table>
+        <!--<table>
             <tr>
                 <td><h5>A: {{aGallons}}</h5></td>
                 <td><h5>B: {{bGallons}}</h5></td>
@@ -22,23 +22,23 @@
                 <td><h5>C: {{cFrac}}</h5></td>
                 <td><h5>total: {{totalFrac}}</h5></td>
             </tr>
-        </table>
+        </table>-->
 
         <table>
             <tr>
-                <td><input type="number" ng-model="addA" style="width: 115px"></td>
-                <td><div class="button" ng-click="ctrl.addA()">Add A</div></td>
+                <td><input type="number" ng-model="addA"></td>
+                <td><div class="button" ng-click="ctrl.add('A')">Add A</div></td>
             </tr>
             <tr>
-                <td><input type="number" ng-model="addB" style="width: 115px"></td>
-                <td><div class="button" ng-click="ctrl.addB()">Add B</div></td>
+                <td><input type="number" ng-model="addB"></td>
+                <td><div class="button" ng-click="ctrl.add('B')">Add B</div></td>
             </tr>
             <tr>
-                <td><input type="number" ng-model="addC" style="width: 115px"></td>
-                <td><div class="button" ng-click="ctrl.addC()">Add C</div></td>
+                <td><input type="number" ng-model="addC"></td>
+                <td><div class="button" ng-click="ctrl.add('C')">Add C</div></td>
             </tr>
             <tr>
-                <td><input type="number" ng-model="remove" style="width: 115px"></td>
+                <td><input type="number" ng-model="remove"></td>
                 <td><div class="button" ng-click="ctrl.remove()">Remove</div></td>
             </tr>
 
@@ -50,7 +50,15 @@
                 <td>{{entry.currentDate | date:'yyyy-MM-dd h:mm:ss a'}}</td>
                 <td>{{entry.action}}</td>
                 <td>{{entry.amount}}</td>
+                <td>{{entry.fracA}}</td>
+                <td>{{entry.fracB}}</td>
+                <td>{{entry.fracC}}</td>
+                <td>{{entry.galA}}</td>
+                <td>{{entry.galB}}</td>
+                <td>{{entry.galC}}</td>
+                <td>{{entry.galTotal}}</td>
             </tr>
+        </table>
 
 
     </div>
