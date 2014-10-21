@@ -126,6 +126,18 @@ function initialize($scope) {
     //first entry
     $scope.entries = [
         {
+            currentDate: 'time',
+            action: 'action',
+            amount: 'amount',
+            fracA:  'frA',
+            fracB:  'frB',
+            fracC:  'frC',
+            galA:   'galA',
+            galB:   'galB',
+            galC:   'galC',
+            galTotal: 'Tot'
+        },
+        {
             currentDate: new Date(),
             action: "init",
             amount: 0,
@@ -137,5 +149,6 @@ function initialize($scope) {
             galC:   $scope.cGallons,
             galTotal: $scope.totalGallons
         }
+
     ];
 }
