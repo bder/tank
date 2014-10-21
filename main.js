@@ -6,23 +6,8 @@ function AppCtrl($scope) {
 
     var capacity = 300;
 
-    var fA,fB,fC,fT,gA,gB,gC,gT;
-
-    function getCurrentValues() {
-        fA = Number($scope.aFrac);
-        fB = Number($scope.bFrac);
-        fC = Number($scope.cFrac);
-        fT = Number($scope.totalFrac);
-        gA = Number($scope.aGallons);
-        gB = Number($scope.bGallons);
-        gC = Number($scope.cGallons);
-        gT = Number($scope.totalGallons);
-    }
-
-
 
     this.add = function(component) {
-        getCurrentValues();
         var amt;
         if(component == 'A')
             amt = $scope.addA;
@@ -34,7 +19,7 @@ function AppCtrl($scope) {
         if(amt == null) {
             return;
         }
-        if (gT + amt > capacity) {
+        if ($scope.totalGallons + amt > capacity) {
             alert('over capacity');
             return;
         }
@@ -48,52 +33,50 @@ function AppCtrl($scope) {
 
         $scope.totalGallons += amt;
         computeFractions($scope);
-        getCurrentValues();
+
 
         $scope.entries.push(
             {
                 currentDate: new Date(),
                 action: "add"+component,
                 amount: amt,
-                fracA:  fA,
-                fracB:  fB,
-                fracC:  fC,
-                galA:   gA,
-                galB:   gB,
-                galC:   gC,
-                galTotal: gT
+                fracA:  $scope.aFrac,
+                fracB:  $scope.bFrac,
+                fracC:  $scope.cFrac,
+                galA:   $scope.aGallons,
+                galB:   $scope.bGallons,
+                galC:   $scope.cGallons,
+                galTotal: $scope.totalGallons
             }
         );
     }
 
     this.remove = function() {
-        getCurrentValues();
         var amt = $scope.remove;
-        var newGallons = gT - amt;
+        var newGallons = $scope.totalGallons - amt;
 
         if(amt != null && newGallons < 0 ) {
             alert('cannot remove ' + amt + ' gallons')
         }
 
         else if(amt != null) {
-            $scope.aGallons = (newGallons * fA).toFixed(0);
-            $scope.bGallons = (newGallons * fB).toFixed(0);
-            $scope.cGallons = (newGallons * fC).toFixed(0);
-            $scope.totalGallons = (gT - amt).toFixed(0);
-            getCurrentValues();
+            $scope.aGallons = (newGallons * $scope.aFrac).toFixed(0);
+            $scope.bGallons = (newGallons * $scope.bFrac).toFixed(0);
+            $scope.cGallons = (newGallons * $scope.cFrac).toFixed(0);
+            $scope.totalGallons = ($scope.totalGallons - amt).toFixed(0);
 
             $scope.entries.push(
                 {
                     currentDate: new Date(),
                     action: "remove",
                     amount: amt,
-                    fracA:  fA,
-                    fracB:  fB,
-                    fracC:  fC,
-                    galA:   gA,
-                    galB:   gB,
-                    galC:   gC,
-                    galTotal: gT
+                    fracA:  $scope.aFrac,
+                    fracB:  $scope.bFrac,
+                    fracC:  $scope.cFrac,
+                    galA:   $scope.aGallons,
+                    galB:   $scope.bGallons,
+                    galC:   $scope.cGallons,
+                    galTotal: $scope.totalGallons
                 }
             );
         }
