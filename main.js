@@ -119,6 +119,7 @@ function initialize($scope) {
             galB:   'galB',
             galC:   'galC',
             galTotal: 'Tot'
+
         },
         {
             currentDate: new Date(),
