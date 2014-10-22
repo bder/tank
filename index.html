@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>AngularJS Tutorials</title>
-    <link rel="stylesheet" href="foundation.css">
+    <title>Tank Tracker</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <script type="text/javascript" src="d3/d3.v3.min.js"></script>
 </head>
 <body>
 
@@ -64,7 +65,22 @@
     </div>
 </div>
 
+<script type="text/javascript">
+    // Your beautiful D3 code will go here
+    d3.select("body").append("p").text("New paragraph!");
+
+    var dataset = [ 5, 10, 15, 20, 25 ];
+
+    d3.select("body").selectAll("p")
+            .data(dataset)
+            .enter()
+            .append("p")
+            .text(function(d) { return d; });
+
+</script>
+
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.min.js"></script>
-<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
 </body>
 </html>
