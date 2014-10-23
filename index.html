@@ -27,6 +27,9 @@
         <input type="number" ng-model="cGallons" style="display: none">
         <input type="number" ng-model="totalGallons" style="display: none">
 
+        <div style="width: 350px; height: 350px">
+            <linechart data="linedata" options="lineoptions"></linechart>
+        </div>
 
         <div style="float: left">
             <table>
@@ -60,7 +63,7 @@
 
 
         <div>
-            <table id="tankdata">
+            <table id="tankdata" style="width: 77%">
                 <tr ng-repeat="entry in entries">
                     <td style="color: gray">     {{entry.currentDate | date:'yyyy-MM-dd h:mm:ss a'}}</td>
                     <td style="color: gray">     {{entry.action}}</td>
